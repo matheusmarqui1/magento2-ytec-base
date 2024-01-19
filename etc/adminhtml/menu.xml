@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <!-- Parent Menu Item for Ytec Modules -->
+        <add id="Ytec_Base::ytec_menu" title="Ytec"
+             module="Ytec_Base" sortOrder="60" resource="Ytec_Base::base_module"/>
+    </menu>
+</config>

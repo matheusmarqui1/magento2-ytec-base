@@ -1,0 +1,16 @@
+.admin__menu .item-ytec-menu  > a:before {
+    content: ''!important;
+    background: url('../images/ytec.svg') no-repeat center center / 32px auto;
+    display: block;
+    font-size: 2.2rem;
+    height: 3rem!important;;
+    margin-bottom: .3rem;
+}
+
+.item-ytec-menu .level-1:last-of-type:after {
+    content: ''!important;
+    background: url('../images/dev_by_logo.png') no-repeat center center;
+    display: block;
+    height: 40px;
+}
+

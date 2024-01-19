@@ -1,0 +1,34 @@
+{
+    "name": "ytec/base",
+    "description": "Base module for Ytec's modules for Magento 2",
+    "keywords": [
+        "magento",
+        "magento2 extension",
+        "magento 2 module",
+        "extension",
+        "module",
+        "magento2 module",
+        "magento 2 module"
+    ],
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Matheus Marqui",
+            "email": "matheus.701@live.com",
+            "homepage": "https://www.linkedin.com/in/matheus-marqui/"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Ytec\\Base\\": ""
+        }
+    }
+}
