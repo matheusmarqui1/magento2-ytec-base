@@ -4,7 +4,7 @@
  *
  * @package    Ytec
  * @moduleName Base
- * @author     Matheus Marqui (matheus.marqui@photoweb.fr)
+ * @author     Matheus Marqui (matheus.marqui@live.com)
  */
 declare(strict_types=1);
 
