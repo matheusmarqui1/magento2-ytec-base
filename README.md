@@ -34,3 +34,4 @@ For bugs, issues or feature requests, please open an issue on the repository or 
 ---
 
 Copyright (c) 2023 Ytec, a company of Matheus da Costa Marqui (matheus.701@live.com)
+# magento2-ytec-coupon-sales
