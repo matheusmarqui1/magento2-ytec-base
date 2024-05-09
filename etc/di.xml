@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--
+/**
+* Copyright © 2024 Ytec. All rights reserved.
+*
+* @package    Ytec
+* @moduleName GiftCards
+* @author     Matheus Marqui <matheus.701@live.com>
+*/
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Ytec\Base\Api\Rest\RestResponseInterface"
+                type="Ytec\Base\Model\Rest\RestResponse"/>
+    <preference for="Ytec\Base\Api\Configuration\ConfigurationManagerInterface"
+                type="Ytec\Base\Model\Configuration\ConfigurationManager"/>
+</config>
