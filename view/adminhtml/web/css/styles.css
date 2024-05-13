@@ -14,3 +14,16 @@
     height: 40px;
 }
 
+li[data-ui-id^="menu-ytec-"] {
+    strong {
+        span {
+            &:before {
+                content: ''!important;
+                background: url('../images/ytec.svg') no-repeat left center / 16px auto;
+                display: block;
+                height: 3rem;
+            }
+        }
+    }
+}
+
